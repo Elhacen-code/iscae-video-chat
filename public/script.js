@@ -144,6 +144,11 @@ const setStopVideo = () => {
   document.getElementById("playPauseVideo").innerHTML = html;
 };
 
+
+const getAllParticipant = () => {
+  alert(""+document.getElementById("roomLink"));
+}
+
 const setUnmuteButton = () => {
   const html = `<i class="unmute fa fa-microphone-slash"></i>
   <span class="unmute">Activer Le Son</span>`;
